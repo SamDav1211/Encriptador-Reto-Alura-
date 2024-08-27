@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Encriptador Texto Samuel M. & Alura</title>
+</head>
+<body>
+    <header> 
+        <img class="logo" src="/Imagenes/Logo.png" alt="logo Alura" > 
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Escribe el texto original aqui"></textarea>
+        <div>
+            <h6 class="informacion"> *Solo letras minusculas y sin acentos* </h6>
+        </div>
+        <div class="botones">
+            <button class="btn-encriptar" onclick="btnEncriptar()">Encripta </button>
+            <button class="btn-desencriptar" onclick="btnDesencriptar()"> Desencripta </button>
+        </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="20" rows="10" placeholder="aqui hare la magia"></textarea>
+            <div>
+                <button class="copiar"> Copiar</button>
+            </div>
+        </section>
+    </main>
+<script src="/script.js"></script>
+<footer>
+    <p>Creado por: Samuel Maldonado con mucha ayuda de Alura Latam<br>
+    <a href="samdavmaldonado@gmail.com">samdavmaldonado@gmail.com</a></p>
+  </footer>
+</body>
+</html>
